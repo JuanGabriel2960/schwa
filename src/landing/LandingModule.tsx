@@ -6,9 +6,9 @@ export const LandingModule = () => {
     return (
         <div>
             <Routes>
-                <Route path="home" element={<Pages.Home />} />
+                <Route path="" element={<Pages.Home />} />
 
-                <Route path="*" element={<Navigate to="/home" replace />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
         </div>
     )
