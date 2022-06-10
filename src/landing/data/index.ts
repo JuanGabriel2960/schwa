@@ -14,3 +14,18 @@ export const navbarLinks: NavbarLinks[] = [
         href: '#courses'
     },
 ]
+
+export const heroStatistics: any[] = [
+    {
+        count: '300+',
+        text: 'Different Topics'
+    },
+    {
+        count: '200+',
+        text: 'Test Questions'
+    },
+    {
+        count: '30+',
+        text: 'Class Units'
+    }
+]

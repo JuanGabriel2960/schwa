@@ -10,6 +10,7 @@ module.exports = {
         'secondary': '#fffaf9',
         'accent': '#ff9b0b',
         'font-strong': '#123141',
+        'font-light': '#677983',
       },
     },
   },

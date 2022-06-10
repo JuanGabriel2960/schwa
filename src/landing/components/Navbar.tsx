@@ -7,7 +7,7 @@ export const Navbar = () => {
 
   return (
     <ul className='flex justify-between items-start'>
-      <h3 className='text-font-strong font-bold text-4xl'>Schwa</h3>
+      <h3 className='text-font-strong font-bold text-4xl'><span className='text-accent'>S</span>chwa</h3>
 
       <span className='font-bold text-4xl z-20 cursor-pointer lg:hidden' onClick={toggleNavbar}>{showNavbar ? '✖' : '☰'}</span>
 
