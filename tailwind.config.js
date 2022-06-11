@@ -12,6 +12,9 @@ module.exports = {
         'font-strong': '#123141',
         'font-light': '#677983',
       },
+      spacing: {
+        '100': '33rem',
+      },
     },
   },
   plugins: [],
