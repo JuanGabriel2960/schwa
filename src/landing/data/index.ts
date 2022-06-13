@@ -114,13 +114,24 @@ export const testimonialsCard: TestimonialsCard[] = [
         name: 'Melvin Harris',
         position: 'Musician',
         stars: 5
+    }
+]
+
+export const footerMedias: any[] = [
+    {
+        icon: '/twitter.png',
+        href: '/',
     },
     {
-        image: testimonial5,
-        title: 'Amazing Courses',
-        description: "I have used other platforms and personally this is the one that has helped me the most, as it helps you develop all the necessary English skills.",
-        name: 'Frank Tenpenny',
-        position: 'Firefighter',
-        stars: 5
+        icon: '/facebook.png',
+        href: '/',
+    },
+    {
+        icon: '/youtube.png',
+        href: '/',
+    },
+    {
+        icon: '/git.png',
+        href: 'https://github.com/JuanGabriel2960/schwa',
     },
 ]

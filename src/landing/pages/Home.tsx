@@ -1,3 +1,4 @@
+import { Footer } from '../components/Footer'
 import { Courses } from '../UI/Courses'
 import { Hero } from '../UI/Hero'
 import { Skills } from '../UI/Skills'
@@ -10,6 +11,7 @@ export const Home = () => {
       <Skills />
       <Courses />
       <Testimonials />
+      <Footer />
     </div>
   )
 }
